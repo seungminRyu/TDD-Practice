@@ -3,6 +3,7 @@ import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import Counter from "../routes/Counter";
 import Navigation from "./Navigation";
 import NotFound from "./NotFound";
+import Shopping from "routes/Shopping";
 
 function AppRouter(props) {
     return (
@@ -12,6 +13,7 @@ function AppRouter(props) {
             <Routes>
                 <Route index element={<Counter />} />
                 <Route path="/counter" element={<Counter />} />
+                <Route path="/shopping" element={<Shopping />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
         </Router>

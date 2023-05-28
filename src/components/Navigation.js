@@ -5,7 +5,12 @@ function Navigation() {
         <div>
             <ul>
                 <li>
-                    <Link to="/">카운터</Link>
+                    <Link to="/counter">카운터</Link>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <Link to="/shopping">쇼핑</Link>
                 </li>
             </ul>
         </div>
